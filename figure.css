@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    margin-top: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+/* Additional styling for triangle */
+.triangle {
+    border-radius: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid dodgerblue;
+}

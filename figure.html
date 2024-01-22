@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="figure.css">
+    <title>Shape Animator</title>
+</head>
+<body>
+    <header>
+        <h1>Изменение формы фигуры</h1>
+    </header>
+    <div class="shape" id="shape"></div>
+    <div class="controls">
+        <label for="shapeSelector">Select Shape:</label>
+        <select id="shapeSelector" onchange="changeShape()">
+            <option value="square">Square</option>
+            <option value="circle">Circle</option>
+            <option value="triangle">Triangle</option>
+        </select>
+    </div>
+
+    <script src="figure.js"></script>
+</body>
+</html>
